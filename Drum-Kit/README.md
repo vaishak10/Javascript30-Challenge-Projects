@@ -25,4 +25,4 @@ Some of the beats and buttons for each beat:
 
 This project is a part of [Javascript 30](https://javascript30.com/) challenge. A huge shoutout to [Wes Bos](https://github.com/wesbos) for creating such awesome content which will help lot of emerging developers and give them exposure in building real world projects.
 
-**Github repo: [](https://github.com/wesbos/JavaScript30)**
+**Github repo: [JavaScript30](https://github.com/wesbos/JavaScript30)**
