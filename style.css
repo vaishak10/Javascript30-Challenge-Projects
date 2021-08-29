@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+body {
+    background-image: url('drums3.jpg');
+}
+
+kbd {
+    background-color: transparent;
+    color: #E7E0C9;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    display: grid;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .08s ease;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    text-shadow: 0 0 .5rem #d7c4c4;
+}
+
+.playing {
+    transform: scale(1.2);
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #64C9CF;
+}
