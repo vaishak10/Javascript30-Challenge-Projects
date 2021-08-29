@@ -13,6 +13,8 @@ Some of the beats and buttons for each beat:
 8. Tom - `K` or `k`
 9. Tink - `L` or `l`
 
+**Live site URL**: [Drum Kit](https://vaishak10.github.io/Javascript30-Challenge-Projects/)
+
 ## Technologies used:
 - HTML
 - CSS
