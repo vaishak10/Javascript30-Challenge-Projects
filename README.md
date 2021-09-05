@@ -3,7 +3,8 @@ This repo consists of all the projects I built as a part of Javascript 30 challe
 
 ## Projects
 
-- [Drum-Kit](/Drum-Kit)
+- [Drum Kit](/Drum-Kit)
+- [JS Clock](/Js-clock)
 
 ## Note
 How to host folders in a github repo?
