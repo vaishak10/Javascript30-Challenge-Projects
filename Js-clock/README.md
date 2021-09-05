@@ -2,6 +2,8 @@
 
 A simple wall clock UI built with Javascript. This is developed on mobile first design approach using bootstrap. So do view it with your smartphones and let know yourself of the time so you are never late on any occasion.
 
+**Live site URL**: [JS clock](https://javascript30-challenge-projects-js-clock.vercel.app/)
+
 ## Technologies used:
 - HTML
 - CSS
