@@ -7,7 +7,6 @@ function setHands() {
 
     const mins = date.getMinutes();
     const minsDegree = ((mins / 60) * 360) + ((seconds/60)*6) + 90;
-    console.log(minsDegree);
     document.querySelector('.minute-hand').style.transform = `rotate(${minsDegree}deg)`;
 
     const hour = date.getHours();

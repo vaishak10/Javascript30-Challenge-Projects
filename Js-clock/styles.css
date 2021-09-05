@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 .full {
-    background: url(https://images.unsplash.com/photo-1607875333342-4c2ff0022728?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) no-repeat center fixed;
+    background: url(https://images.unsplash.com/photo-1467685790346-20bfe73a81f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80) no-repeat center fixed;
     background-size: cover;
     height:100%;
+    font-family: 'Passion One', cursive;
 }
 .row {
     height: 100vh;
@@ -10,9 +13,11 @@
 .circle {
     height: 200px;
     width: 200px;
-    border: 12px solid #F4ABC4;
+    border: 12px solid #ED6363;
     border-radius: 50%;
     position:relative;
+    box-shadow: 0px 0px 10px 6px #7e7474;
+    background-color: rgb(72 35 35 / 62%);
 }
 .hand {
     background: #fff;
@@ -24,4 +29,31 @@
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     width: 75px;
     height: 8px;
+    border-radius:8px;
+}
+.hour-12 {
+    color: #fff;
+    position: absolute;
+    left: 81px;
+    top: -2px;
+}
+.hours {
+    color: #fff;
+    position: absolute;
+    top: 75px;
+    left: 165px;
+}
+.hours::before {
+    content: '6';
+    color: #fff;
+    position: absolute;
+    top: 80px;
+    right: 78px;
+}
+.hours::after {
+    content: '9';
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    right: 162px;
 }
