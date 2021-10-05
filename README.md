@@ -5,6 +5,7 @@ This repo consists of all the projects I built as a part of Javascript 30 challe
 
 - [Drum Kit](/Drum-Kit)
 - [JS Clock](/Js-clock)
+- [Update CSS Variables](Update-CSS-Variables)
 
 ## Note
 How to host folders in a github repo?
